@@ -23,17 +23,11 @@ API_KEY = "AIzaSyAQ6JK-XEvoZfvNu7rAeFSVMTnLmBxmK7E"
 # CONFIG: static files for downloads (update paths if needed)
 # ============================================================
 
-PYTHON_FILES = {
-    "Address Validation Notebook": "/Users/sreenidhikommineni/Downloads/Address_Validation.ipynb",
-    "Coupon Generation Notebook": "/Users/sreenidhikommineni/Downloads/CouponGeneration.ipynb",
-}
 
 WORD_TEMPLATES = {
-    # used on Refunds page
-    "Refund Check Template": "/Users/sreenidhikommineni/Library/CloudStorage/OneDrive-FlexDay/Chase Temp Bulk.docx",
-    # used on Letters & Labels page
-    "Letter Template": "/Users/sreenidhikommineni/Library/CloudStorage/OneDrive-FlexDay/DM-Letters Temp.docx",
-    "Label Template": "/Users/sreenidhikommineni/Library/CloudStorage/OneDrive-FlexDay/Labels-Temp.docx",
+    "Refund Check Template": "Chase Temp Bulk.docx",
+    "Letter Template": "DM-Letters Temp.docx",
+    "Label Template": "Labels-Temp.docx",
 }
 
 # include both possible ZIP spellings; we’ll keep whichever exists
