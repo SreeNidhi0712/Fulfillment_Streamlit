@@ -646,7 +646,7 @@ def show_coupons_process():
     st.markdown("## 3. Process Explanation (Coupons)")
     st.write("""
     1. Export Freshdesk tickets for desired date range.  
-    2. Check the Names and Address and alsd for any misplacemnt of Lower and Upper Case
+    2. Check the Names and Address and also for any misplacemnt of Lower and Upper Case
     3. Upload the exported file here.  
     4. Select the Enclosures column and the value for **Coupons**.  
     5. Click **Process & Validate Coupons**   
@@ -770,7 +770,7 @@ def show_refunds_process():
     st.markdown("## 3. Process Explanation (Refunds)")
     st.write("""
     1. Export Freshdesk tickets for your date range.
-    2. Check the Names and Address and alsd for any misplacemnt of Lower and Upper Case
+    2. Check the Names and Address and also for any misplacemnt of Lower and Upper Case
     3. Upload export here and process.  
     4. Download **Refunds_prepared** Excel.  
     5. Fix invalid addresses (Maps / Zillow) and re-run if needed.  
