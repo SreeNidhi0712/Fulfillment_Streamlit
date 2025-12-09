@@ -498,18 +498,18 @@ def show_overview():
     """)
 
     st.markdown("---")
-    st.markdown("## ⬇️ Download Python Notebooks")
+ #st.markdown("## ⬇️ Download Python Notebooks")
 
-    for label, path in PYTHON_FILES.items():
-        data = get_file_bytes(path)
-        if data is None:
-            st.warning(f"File not found on this machine: `{path}`.")
-        else:
-            st.download_button(
-                f"Download {label}",
-                data=data,
-                file_name=os.path.basename(path),
-                mime="application/octet-stream",
+  #  for label, path in PYTHON_FILES.items():
+   #     data = get_file_bytes(path)
+    #    if data is None:
+     #       st.warning(f"File not found on this machine: `{path}`.")
+      #  else:
+       #     st.download_button(
+        #        f"Download {label}",
+         #       data=data,
+          #      file_name=os.path.basename(path),
+           #     mime="application/octet-stream",
             )
 
 
