@@ -646,13 +646,14 @@ def show_coupons_process():
     st.markdown("## 3. Process Explanation (Coupons)")
     st.write("""
     1. Export Freshdesk tickets for desired date range.  
-    2. Upload the exported file here.  
-    3. Select the Enclosures column and the value for **Coupons**.  
-    4. Click **Process & Validate Coupons**   
-    5. Check the invalid addresses and fix them if needed and re-run.  
-    6. Upload the **Barcodes** Excel.  
-    7. Click **Run Coupon PDF Generator** to create the final coupon PDF.  
-    8. Print coupons on coupon paper.
+    2. Check the Names and Address and alsd for any misplacemnt of Lower and Upper Case
+    3. Upload the exported file here.  
+    4. Select the Enclosures column and the value for **Coupons**.  
+    5. Click **Process & Validate Coupons**   
+    6. Check the invalid addresses and fix them if needed and re-run.  
+    7. Upload the **Barcodes** Excel.  
+    8. Click **Run Coupon PDF Generator** to create the final coupon PDF.  
+    9. Print coupons on coupon paper.
     """)
 
 
@@ -768,17 +769,18 @@ def show_refunds_process():
 
     st.markdown("## 3. Process Explanation (Refunds)")
     st.write("""
-    1. Export Freshdesk tickets for your date range.  
-    2. Upload export here and process.  
-    3. Download **Refunds_prepared** Excel.  
-    4. Fix invalid addresses (Maps / Zillow) and re-run if needed.  
-    5. In Word:
+    1. Export Freshdesk tickets for your date range.
+    2. Check the Names and Address and alsd for any misplacemnt of Lower and Upper Case
+    3. Upload export here and process.  
+    4. Download **Refunds_prepared** Excel.  
+    5. Fix invalid addresses (Maps / Zillow) and re-run if needed.  
+    6. In Word:
        - Open Refund Check Template.  
        - Add today's date.  
        - Mailings → Select Recipients → Use Existing List → pick Refunds Excel.  
        - Finish & Merge → Edit Individual Documents.  
-    6. Manually type in the **Name**, **Refund Amount**, and **Amount in words**.  
-    7. Load check stock and print.
+    7. Manually type in the **Name**, **Refund Amount**, and **Amount in words**.  
+    8. Load check stock and print.
     """)
 
 
