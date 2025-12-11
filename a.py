@@ -525,7 +525,7 @@ def show_coupons_process():
     )
 
     if uploaded is not None:
-        if not API_KEY or "AIzaSyAQ6JK-XEvoZfvNu7rAeFSVMTnLmBxmK7E" in API_KEY:
+        if not API_KEY:
             st.error("API_KEY is not set correctly. Please add your real Google Maps API key at the top of app.py.")
             return
 
